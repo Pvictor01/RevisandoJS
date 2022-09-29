@@ -16,3 +16,10 @@ console.error(); //ponto para encadear algo
 //INCREMENTAR ++, --
 let a = 2;
 a++ //a = 3
+
+/*Comparação de dados
+retornam um resultado booleano
+== e ===
+!== e !===
+>, ≥, <, ≤
+*/
