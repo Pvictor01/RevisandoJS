@@ -13,4 +13,4 @@ if(velocitA > velocitB) {
     alert('O veículo B é mais rápido! \n Veículo B: ' + velocidadeB + 'Km/h' + '\n Veículo A: ' + velocidadeA + 'Km/h');
 } else if(velocitA == velocitB){
     alert('Os dois veículos estão na mesma velocidade \n Veículo A: ' + velocidadeA + 'Km/h' + '\n Veículo B: ' + velocidadeB + 'Km/h')
-}
+};
