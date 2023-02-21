@@ -5,7 +5,15 @@ Programa que permita inserir dois valores numéricos e calcule o resultado das 4
 let valueA = prompt('Insira o primeiro valor numérico');
 let valueB = prompt('Insira o segundo valor numérico');
 
-alert(`O resultado da soma dos dois valores é ${parseFloat(valueA) + parseFloat(valueB)};
-\nO resultado da subtração dos dois valores é ${valueA - valueB};
-\nO resultado da divisão dos dois valores é ${valueA / valueB};
-\n resultado da multiplicação dos dois valores é ${valueA * valueB}`);
+const x = parseFloat(valueA);
+const y = parseFloat(valueB);
+
+const sum = x + y;
+const subtraction = x - y;
+const division = x / y;
+const multiplication = x - y;
+
+alert(`A soma dos valores é: ${sum}
+\nA subitração dos valores é: ${subtraction}
+\nA divisão dos valores é: ${division}
+\nA multiplicação dos valores é: ${multiplication}`);
