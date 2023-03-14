@@ -1,4 +1,5 @@
-//High-Order Functions
+// Funções de alta-ordem, ou high-order functions, são funções que
+// recebem outras funções como parâmetro e as executam em algum momento
 function calc(a, b, operation) {
   console.log('Realizando uma operação');
   const result = operation(a, b); 
